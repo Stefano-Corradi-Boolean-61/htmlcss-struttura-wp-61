@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+  UTILS
+*/
+
+.container{
+  width: 80%;
+  max-width: 1500px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.mb-15{
+  margin-bottom: 15px;
+}
+
+/*
+  HEADER
+*/
+.header-top{
+  height: 80px;
+  background-color: brown;
+}
+
+.jumbotron{
+  height: 500px;
+  background-color: blueviolet;
+}
+
+/*
+  MAIN
+*/
+main{
+  background-color: aqua;
+  padding-bottom: 15px;
+}
+
+.main-top{
+  height: 80px;
+  background-color: blue;
+  margin-bottom: 15px;
+}
+
+.left-col, .right-col, .center-col{
+  background-color: blue;
+  height: 500px;
+}
+
+.left-col, .right-col{
+  width: 19%;
+}
+
+.center-col{
+  width: 60%;
+}
+
+.left-col{
+  margin-right: 1%;
+}
+
+.right-col{
+  margin-left: 1%;
+}
+
+
+/*
+  FOOTER
+*/
+
+footer{
+  background-color: cornflowerblue;
+  height: 80px;
+  margin-bottom: 15px;
+}
